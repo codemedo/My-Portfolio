@@ -38,8 +38,8 @@ body{
     background-image: url(media/Coding\ Pic.jpg);
     background-repeat: no-repeat;
     width: 100%;background-size: cover;
-    padding-bottom: 585px;
-    margin-top: -20px;
+    padding-bottom: 550px;
+    margin-top: -50px;
 }
 #maintitletxt{
     color: white;
@@ -52,4 +52,67 @@ body{
     font-size: 15px;
     padding-left: 700px;
     font-family: 'Varela Round', sans-serif;
+}
+#socialgithub{  
+    font-size: 35px;
+    color: rgb(250, 250, 250);
+    padding-left: 675px;
+    }
+#socialgithub :hover{
+    font-size: 35px;
+    color: rgb(34, 34, 34);
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+}
+#sociallinkedin{
+    font-size: 35px;
+    color: rgb(250, 250, 250);
+    padding-left: 15px;
+}
+#sociallinkedin :hover{
+    font-size: 35px;
+    color: rgb(34, 34, 34);
+    background-color: rgb(250, 250, 250);
+}
+#socialcodepen{
+    font-size: 35px;
+    color: rgb(250, 250, 250);
+    padding-left: 15px;
+}
+#socialcodepen :hover{
+    font-size: 35px;
+    color: rgb(34, 34, 34);
+    background-color: rgb(250, 250, 250);
+    border-radius: 200px;
+}
+#socialfcc{
+    font-size: 35px;
+    color: rgb(250, 250, 250);
+    padding-left: 15px;   
+}
+#socialfcc :hover{
+    font-size: 35px;
+    color: rgb(34, 34, 34);
+    background-color: rgb(250, 250, 250);
+    border-radius: 200px;
+}
+#latestworktxtdiv{
+font-family: 'Varela Round', sans-serif;
+color: rgb(250, 250, 250);
+font-size: 16px;
+padding-left: 685px;
+}
+#arrowbutton{
+    color: rgb(250, 250, 250);
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 75px;
+}
+#smallportfolio{
+    background-color: rgba(250, 250, 250, 0.281);
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 150px;
+    color: rgb(250, 250, 250);
 }
