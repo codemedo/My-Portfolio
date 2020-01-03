@@ -36,7 +36,7 @@ body{
 /*NAVIGATION BAR END'S HERE*/
 
 #mainsct{
-    background-image: url(https://cdn6.f-cdn.com/contestentries/1370548/19120511/5b4d43f5c58ce_thumb900.jpg);
+    background-image: url(media/max-duzij-qAjJk-un3BI-unsplash.jpg) 11;
     margin-top: -20px;
     padding-bottom: 500px;
 }
@@ -69,29 +69,30 @@ body{
     color: white;
 }
 #wifitxt{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     padding-left: 200px;
     font-size: 18px;
 }
 #laptoptxt{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     padding-left: 500px;
     margin-top: -80px;
     font-size: 18px;
 }
 #lightbulbtxt{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     padding-left: 785px;
     margin-top: -80px;
     font-size: 18px;
 }
 #rockettxt{
-    color: white;   
+    color: rgb(0, 0, 0);   
     font-family: 'Open Sans', sans-serif;
     padding-left: 1050px;
     margin-top: -80px;
     font-size: 18px;
+    background-color: aliceblue;
 }
