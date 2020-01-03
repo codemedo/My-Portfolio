@@ -38,64 +38,8 @@ body{
 #mainsct{
     background-image: url(https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
     margin-top: -20px;
-    padding-bottom: 250px;
+    padding-bottom: 850px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-#maintitletxt{
-    color: rgb(255, 255, 255);
-    font-family: 'Varela Round', sans-serif;
-    font-size: 30px;
-    padding-left: 650px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-#wifipic {
-    font-size: 70px;
-    padding-left: 250px;    
-    color: white;
-}
-#laptoppic {
-    font-size: 70px;
-    padding-left: 200px;
-    color: white;
-}
-#lightbulbpic {
-    font-size: 70px;
-    padding-left: 200px;
-    color: white;
-}
-#rocketpic {
-    font-size: 70px;
-    padding-left: 225px;
-    color: white;
-}
-#wifitxt{
-    color: rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 200px;
-    font-size: 18px;
-}
-#laptoptxt{
-    color: rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 500px;
-    margin-top: -80px;
-    font-size: 18px;
-}
-#lightbulbtxt{
-    color: rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 785px;
-    margin-top: -80px;
-    font-size: 18px;
-}
-#rockettxt{
-    color: rgb(0, 0, 0);   
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1050px;
-    margin-top: -80px;
-    font-size: 18px;
-    background-color: aliceblue;
 }
