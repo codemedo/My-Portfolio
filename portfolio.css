@@ -1,0 +1,71 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+/*NAVIGATION BAR STARTS HERE!*/
+.navbar{
+    text-align: center;
+    background: url("media/Capture.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 10px 10px;
+}
+.navbartxt{ 
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    list-style: none;
+    padding-left: 50px;
+}
+.navbarul{
+    display: flex;
+    padding-left: 400px;
+}
+.href:hover{
+    text-decoration: none;
+    color: rgba(141, 8, 8, 0.842);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+.href{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+    /* NAVIGATION BARS ENDS HERE*/
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 200px;
+      }
+      .grid-item1{
+        background-image: url(media/Capture.PNG);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        font-size: 30px;
+        color: rgb(39, 37, 37);
+        padding-top: 50px;
+        text-align: center;
+        background-size: 500px;
+        background-repeat: no-repeat;
+      }
+      #mainsct{
+          padding-top: 350px;
+      }
+      #ubertxt{
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+          font-family: 'Lexend Exa', sans-serif;
+          padding-top: -150px;
+      }
