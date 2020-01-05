@@ -1,0 +1,94 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+/*NAVIGATION BAR START'S HERE*/
+.navbar{
+    text-align: center;
+    background: url("media/Capture.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 10px 10px;
+}
+.navbartxt{ 
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    list-style: none;
+    padding-left: 50px;
+}
+.navbarul{
+    display: flex;
+    padding-left: 375px;
+}
+.href:hover{
+    text-decoration: none;
+    color: rgba(179, 30, 30, 0.842);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+.href{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+/*Navigation Bar End's Here*/
+#mainsct{
+    background-color: rgb(49, 65, 78);
+    background-size: cover; 
+    padding-bottom: 500px;
+    margin-top: -28px;
+}
+#titletxt{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 75px;
+    font-size: 40px;
+}
+#secondtitletxt{
+    color: aliceblue;
+    font-family: 'Lexend Exa', sans-serif;
+}
+#mainsct{
+text-align: center;
+}
+#input1 {
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+#input2 {
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+#input3{
+    padding: 5px 300px 150px 0;
+    font-size: 15px;
+}
+#inputs12 {
+    text-align: right;
+    padding-right: 100px;
+}
+#Button {
+    padding: 20px 183px 20px 183px;
+    border-radius: 100px; 
+    background-color: rgb(15, 143, 100);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}  
+#Button :hover{
+    background-color: violet;
+}
+#navbar #navbarul{
+    position: relative;
+
+}
