@@ -30,6 +30,7 @@ body{
     color: rgba(187, 36, 36, 0.842);
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.192);
+    transition: ease-in-out 0.5s;
 }
 .href{
     text-decoration: none;
@@ -124,4 +125,19 @@ body{
 /* FOOTER BEGINS HERE!*/
 #footer{
     background-color: rgb(66, 64, 71);
+    padding-bottom: 150px;
+    margin-top: -20px;
+}
+#pages{
+    list-style: none;
+    padding-top: 50px;
+}
+.liclass a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-family: 'Varela Round', sans-serif;
+}
+#socialicons{
+    font-size: 35px;
 }
