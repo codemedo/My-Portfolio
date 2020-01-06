@@ -45,6 +45,7 @@ body{
     background-size: cover;
     margin-top: -40px;
     background-position: 50%;
+    padding-bottom: 250px;
 }
 #maintitletxt{
     color: white;
@@ -57,47 +58,18 @@ body{
     font-size: 15px;
     font-family: 'Varela Round', sans-serif;
 }
-#socialgithub{  
-    font-size: 35px;
-    color: rgb(250, 250, 250);
-    }
-#socialgithub :hover{
-    font-size: 35px;
-    color: rgb(34, 34, 34);
-    background-color: rgb(250, 250, 250);
-    border-radius: 20px;
+.socialiconsmain{  
+    font-size: 40px;
+    color: rgb(150, 46, 94);
+    padding: 8px;
+    border: 2px solid transparent;
 }
-#sociallinkedin{
-    font-size: 35px;
-    color: rgb(250, 250, 250);
-    padding-left: 15px;
-}
-#sociallinkedin :hover{
-    font-size: 35px;
-    color: rgb(34, 34, 34);
-    background-color: rgb(250, 250, 250);
-}
-#socialcodepen{
-    font-size: 35px;
-    color: rgb(250, 250, 250);
-    padding-left: 15px;
-}
-#socialcodepen :hover{
-    font-size: 35px;
-    color: rgb(34, 34, 34);
-    background-color: rgb(250, 250, 250);
-    border-radius: 200px;
-}
-#socialfcc{
-    font-size: 35px;
-    color: rgb(250, 250, 250);
-    padding-left: 15px;   
-}
-#socialfcc :hover{
-    font-size: 35px;
-    color: rgb(34, 34, 34);
-    background-color: rgb(250, 250, 250);
-    border-radius: 200px;
+.socialiconsmain:hover{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    transition: ease-in-out 1s;
+    border: 2px solid rgb(201, 31, 68);
 }
 #latestworktxtdiv{
     font-family: 'Varela Round', sans-serif;
@@ -119,13 +91,26 @@ body{
 }
 /* FOOTER BEGINS HERE!*/
 #footer{
-    background-color: rgb(66, 64, 71);
-    padding-bottom: 150px;
+    background-color: rgb(98, 97, 99);
     margin-top: -20px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #pages{
     list-style: none;
     padding-top: 50px;
+}
+.aclass:hover{
+    color: black;
+    background-color: rgba(202, 199, 193, 0.849);
+    border-radius: 10px;
+    width: 0px;
+    transition: ease-in-out 0.5s;
+    font-family: 'Varela Round', sans-serif;
+}
+.aclass{
+    padding: 12px 14px;
 }
 .liclass a{
     text-decoration: none;
@@ -134,5 +119,34 @@ body{
     font-family: 'Varela Round', sans-serif;
 }
 #socialicons{
-    font-size: 35px;
+    font-size: 40px;
+    margin-top: -200px;
+}
+.social{
+    color: white;
+    padding: 9px 10px;
+}
+.social:hover{
+    color: black;
+    background-color: rgba(202, 199, 193, 0.849);
+    border-radius: 10px;
+    width: 0px;
+    transition: ease-in-out 0.5s;
+    font-family: 'Varela Round', sans-serif;
+}
+#emailtxt {
+    font-size: 20px;
+    margin-top: -150px;
+    padding-bottom: 150px;
+    font-family: 'Varela Round', sans-serif;
+}
+#footerhref{
+    text-decoration: none;
+    color: white;
+}
+#nametxt{
+    font-size: 20px;
+    margin-top: -150px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
 }
