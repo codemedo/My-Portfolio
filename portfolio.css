@@ -10,6 +10,8 @@ body{
     background: url("media/Capture.jpg") center center no-repeat;
     background-size: cover;
     padding: 10px 10px;
+    position: fixed;
+    width: 100%;
 }
 .navbartxt{ 
     font-family: 'Fredoka One', cursive;
