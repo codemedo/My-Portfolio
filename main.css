@@ -127,8 +127,7 @@ body{
     color: white;
     padding: 9px 10px;
     width: max-content;
-    margin: 10px;
-
+    margin: 0px;
 }
 .social:hover{
     color: black;
