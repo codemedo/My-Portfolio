@@ -39,39 +39,41 @@ body{
 }
     /* NAVIGATION BARS ENDS HERE*/
 
-    .grid-container {
+      .grid-container{
         display: grid;
-        grid-template-columns: auto auto auto;
-        background-color: #2196F3;
+        grid-template-columns: repeat(3, 4fr);
+        grid-gap: 10px;
+        padding-top: 200px;
+    }
+    .grid-item{
+        text-align: center;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.75);
+        box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.75);
         padding: 10px;
-      }
-      .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
-        border: 1px solid rgba(0, 0, 0, 0.8);
-        padding: 20px;
-        font-size: 30px;
-        text-align: center;
-        padding-bottom: 200px;
-      }
-      .grid-item1{
-        background-image: url(media/Capture.PNG);
-        border: 1px solid rgba(0, 0, 0, 0.8);
-        font-size: 30px;
-        color: rgb(39, 37, 37);
-        padding-top: 50px;
-        text-align: center;
-        background-size: 500px;
-        background-repeat: no-repeat;
-      }
-      #mainsct{
-          padding-top: 350px;
-      }
-      #ubertxt{
-          text-decoration: none;
-          color: rgb(0, 0, 0);
-          font-family: 'Lexend Exa', sans-serif;
-          padding-top: -150px;
-      }
+    }
+    item-subheader{
+        color: black;
+        text-decoration: none;
+    }
+    .item-img{
+        width: 100%;
+        
+        /* try to take pictures that are the same size /
+    }
+    .item-header{
+        font-size: 1.6rem;
+        / fix the font family/
+    }
+    .item-subheader{
+        text-decoration: none;
+        color: black / your choice of color /
+        font-size: 1rem;
+        / font family is your choice as well /
+        padding: 5px;
+        / also u may fix the hover effect :wink: */
+    }
     /* FOOTER BEGINS HERE!*/
 #footer{
     background-color: rgb(98, 97, 99);

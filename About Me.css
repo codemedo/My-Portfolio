@@ -59,6 +59,12 @@ body{
 #leftbox{
     padding-left: 350px;
     padding-top: 150px;
+    text-align: center;
+}
+#leftbox2{
+    padding-left: 0px;
+    padding-top: 150px;
+    text-align: center; 
 }
 #leftboxtxt{
     color: rgb(0, 0, 0);
@@ -69,6 +75,18 @@ body{
     width: 415px;
     height: 145px;
     border-radius: 20px;
+    text-align: center;
+}
+#leftboxtxt2{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    width: 415px;
+    height: 145px;
+    border-radius: 20px;
+    margin-top: -100px;
 }
 .hreftxt{
     text-decoration: none;
@@ -86,11 +104,26 @@ body{
     font-family: 'Varela Round', sans-serif;
     margin-left: 450px;
     margin-top: -173px;
+    text-align: center;
+}
+#rightboxtxt2{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 415px;
+    height: 145px;
+    background-color: rgba(255, 255, 255, 0.616);
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 450px;
+    margin-top: -295px;
+    text-align: center; 
 }
 /* FOOTER BEGINS HERE!*/
 #footer{
     background-color: rgb(98, 97, 99);
-    margin-top: -20px;
+    margin-top: 150px;
     padding-bottom: 250px;
     padding-left: 10%;
     padding-right: 10%;
