@@ -73,6 +73,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 4fr);
     grid-gap: 10px;
+    padding-top: 100px;
 }
 .grid-item{
     text-align: center;
@@ -83,19 +84,17 @@ body{
     padding: 10px;
 }
 .item-img{
-    width: 100%;
-    
-    /* try to take pictures that are the same size /
+    width: 25%;
 }
 .item-header{
     font-size: 1.6rem;
-    / fix the font family/
+    font-family: 'Lexend Exa', sans-serif;
+    color: white;
 }
 .item-subheader{
     text-decoration: none;
-    color: black / your choice of color /
+    color: rgb(255, 255, 255);
     font-size: 1rem;
-    / font family is your choice as well /
+    font-family: 'Lexend Exa', sans-serif;
     padding: 5px;
-    / also u may fix the hover effect :wink: */
 }

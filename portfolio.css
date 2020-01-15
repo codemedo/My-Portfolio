@@ -43,6 +43,8 @@ body{
         grid-template-columns: repeat(3, 4fr);
         grid-gap: 10px;
         padding-top: 300px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .grid-item{
         text-align: center;
