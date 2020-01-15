@@ -41,7 +41,7 @@ body{
 #mainsct{
     background-color: rgb(49, 65, 78);
     background-size: cover; 
-    padding-bottom: 500px;
+    padding-bottom: 300px;
     margin-top: -28px;
 }
 #titletxt{
@@ -55,7 +55,7 @@ body{
     font-family: 'Lexend Exa', sans-serif;
 }
 #mainsct{
-text-align: center;
+    text-align: center;
 }
 #input1 {
     padding-right: 300px;
@@ -87,9 +87,7 @@ text-align: center;
     text-decoration: none;
     font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
-}  
-#Button :hover{
-    background-color: violet;
+    cursor: pointer;
 }
 #navbar #navbarul{
     position: relative;

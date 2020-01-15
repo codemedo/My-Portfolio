@@ -17,7 +17,7 @@ body{
 .navbartxt{ 
     font-family: 'Fredoka One', cursive;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: normal; 
     color: white;
     list-style: none;
     padding-left: 50px;
@@ -45,52 +45,48 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding-bottom: 500px;
-    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-top: 200px;
 }
-.leftsidetxt{
-    font-family: 'Lexend Exa', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
+#titletxt{
     color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+#txtdiv{
+    background-color: rgba(136, 126, 126, 0.582);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+}
+.ptags{
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
     text-align: center;
 }
-#leftsidediv{
-    background-color: rgba(95, 95, 95, 0.719);
-    width: 500px;
-    margin-left: 10%;
-    margin-top: -100px;
-}
-.rightsidetxt{
-    font-family: 'Lexend Exa', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    color: white;
-    text-align: center;
-}
-#rightsidediv{
-    background-color: rgba(95, 95, 95, 0.719);
-    width: 500px;
-    margin-top: -100px;
-    text-align: right;
+.span{
+    color: rgb(153, 49, 72);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    
 }
 .href5{
     color: blue;
     font-size: 16px;
     text-decoration: none;
 }
-.href5:hover{
-    color: rgb(42, 42, 151);
-    text-decoration: underline;
-}
 /* FOOTER BEGINS HERE!*/
 #footer{
     background-color: rgb(98, 97, 99);
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 200px;
+    margin-top: -25px;
 }
 #pages{
-    list-style: none;
+    list-style: none; 
     padding-top: 50px;
 }
 .aclass:hover{

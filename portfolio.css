@@ -38,19 +38,27 @@ body{
     padding: 10px;
 }
     /* NAVIGATION BARS ENDS HERE*/
+    #mainsct{
+        background-image: url(media/portfolioimg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .grid-container{
         display: grid;
         grid-template-columns: repeat(3, 4fr);
         grid-gap: 10px;
-        padding-top: 300px;
+        padding-top: 250px;
+        padding-bottom: 150px;
     }
     .grid-item{
         text-align: center;
         border-radius: 10px;
-        -webkit-box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.75);
-        box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 1px 13px 1px rgb(0, 0, 0);
+        -moz-box-shadow: 0px 1px 13px 1px rgb(0, 0, 0);
+        box-shadow: 0px 1px 13px 1px rgb(0, 0, 0);
         padding: 10px;
+        background-color: rgba(95, 90, 90, 0.753);
     }
     .item-img{
         width: 100%;
@@ -58,22 +66,22 @@ body{
     }
     .item-header{
         font-size: 1.6rem;
-        /* fix the font family*/
+        font-family: 'Varela Round', sans-serif;
+        color: rgb(255, 255, 255);
     }
     .item-subheader{
         text-decoration: none;
-        color: black /* your choice of color */
+        color: rgb(255, 255, 255);
         font-size: 1rem;
-        /* font family is your choice as well */
         padding: 5px;
-        /* also u may fix the hover effect ;-) */
+        font-family: 'Varela Round', sans-serif;
     }
     /* FOOTER BEGINS HERE!*/
 #footer{
     background-color: rgb(98, 97, 99);
     margin-top: -20px;
     padding-bottom: 250px;
-    padding-left: 10%;
+    padding-left: 10%; 
     padding-right: 10%;
 }
 #pages{
@@ -123,7 +131,7 @@ body{
 }
 #footerhref{
     text-decoration: none;
-    color: white;
+    color: white; 
 }
 #nametxt{
     font-size: 20px;
