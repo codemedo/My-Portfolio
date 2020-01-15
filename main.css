@@ -131,7 +131,7 @@ body{
 #pages{
     list-style: none;
     padding-top: 50px;
-}
+} 
 .aclass:hover{
     color: black;
     background-color: rgba(202, 199, 193, 0.849);
