@@ -82,6 +82,7 @@ body{
     -moz-box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.75);
     padding: 10px;
+    background-color: rgba(109, 102, 102, 0.616);
 }
 .item-img{
     width: 25%;
@@ -97,4 +98,67 @@ body{
     font-size: 1rem;
     padding: 5px;
     font-family: 'Lexend Exa', sans-serif;
+}
+/* FOOTER BEGINS HERE!*/
+#footer{
+    background-color: rgb(98, 97, 99);
+    margin-top: -20px;
+    padding-bottom: 250px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#pages{
+    list-style: none;
+    padding-top: 50px;
+} 
+.aclass:hover{
+    color: black;
+    background-color: rgba(202, 199, 193, 0.849);
+    border-radius: 10px;
+    width: 0px;
+    transition: ease-in-out 0.5s;
+    font-family: 'Varela Round', sans-serif;
+}
+.aclass{
+    padding: 12px 14px;
+}
+.liclass a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-family: 'Varela Round', sans-serif;
+}
+#socialicons{
+    font-size: 40px;
+    margin-top: -200px;
+}
+.social{
+    display: block;
+    color: white;
+    padding: 9px 10px;
+    width: max-content;
+    margin: 0px;
+}
+.social:hover{
+    color: black;
+    background-color: rgba(202, 199, 193, 0.849);
+    border-radius: 20px;
+    transition: ease-in-out 0.5s;
+    font-family: 'Varela Round', sans-serif;
+}
+#emailtxt {
+    font-size: 20px;
+    margin-top: -250px;
+    padding-bottom: 150px;
+    font-family: 'Varela Round', sans-serif;
+}
+#footerhref{
+    text-decoration: none;
+    color: white;
+}
+#nametxt{
+    font-size: 20px;
+    margin-top: -150px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
 }
