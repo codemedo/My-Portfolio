@@ -41,17 +41,28 @@ body{
 #mainsct{
     background-image: url(media/Coding\ Pic.jpg);
     background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
+    width: 100%; 
+    background-size: cover; 
     margin-top: -40px;
     background-position: 50%;
     padding-bottom: 250px;
 }
 #maintitletxt{
     color: white;
-    padding: 200px 0 0 0;
+    padding: 200px 0 0 0; 
     font-size: 35px;
     font-family: 'Open Sans', sans-serif;
+    animation-name: title;
+    animation-duration: 3s;   
+}
+@keyframes title{
+    0%{
+        margin-left: -1000px;
+        transform: scale(2);
+    }
+    50%{  
+        margin-left: 350px;
+}
 }
 #mainsctsmltxt{
     color: rgb(124, 121, 121);
@@ -81,6 +92,7 @@ body{
     font-size: 30px;
     font-weight: 900;
 }
+
 #smallportfolio{
     background-color: rgba(250, 250, 250, 0.281);
     margin-top: 500px;
