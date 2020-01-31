@@ -7,7 +7,7 @@ body{
 /*NAVIGATION BAR STARTS HERE!*/
 .navbar{
     text-align: center;
-    background: url("media/Capture.jpg") center center no-repeat;
+    background: url("media/Navigation\ bar\ img.jpg") center center no-repeat;
     background-size: cover;
     padding: 10px 10px;
     position: fixed;
@@ -138,4 +138,7 @@ body{
     margin-top: -150px;
     color: white;
     font-family: 'Varela Round', sans-serif;
+}
+.href-Portfolio{
+    color: white;
 }
